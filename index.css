@@ -1,0 +1,50 @@
+body{
+	background: url(https://source.unsplash.com/fmcxLtPc85c/1600x900);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+}
+center h1{
+	color: ghostwhite;
+	font-family: serif;
+}
+center h2{
+	color: wheat;
+	font-family: monospace;
+}
+.box{
+	width: 80px;
+	height: 80px;
+	background: rgba(119,136,153,0.9);
+	margin: 20px;
+	padding: 14px;
+}
+.tic{
+    margin-top: 100px;
+    width: 363px;
+    height: 322px;
+	background: rgba(12,12,12,0.3);
+	border-radius: 15px;
+}
+.row{
+	display: table-cell;
+}
+.inside{
+	 font-size: 35px;
+	 display: none;
+}
+.symbol h3{
+	color: white;
+}
+.symbol{
+	display: none;
+} 
+.message{
+	color:white;
+	font-family: monospace;
+}
+#modal-btn{
+	display: none;
+}
