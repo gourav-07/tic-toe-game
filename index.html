@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+<center>
+<h1>TICY TACO GAME</h1>
+<h2>PLAY WITH EITHER COMPUTER OR YOUR BUDDY</h2>
+
+<BUTTON id="comp" class="btn btn-primary">COMPUTER</BUTTON>
+<BUTTON id="person" class="btn btn-primary">PERSON</BUTTON>
+<div class="symbol">
+	<h3>Choose Your Symbol</h3>
+	<button id="sym1">X</button>
+	<button id="sym2">O</button>
+</div>
+
+<p class="message"></p>
+	<div class="tic">
+		<div class="row">
+			<div class="box" id="aa"><span class="inside" ></span></div>
+			<div class="box" id="ba"><span class="inside" ></span></div>
+			<div class="box" id="ca"><span class="inside" ></span></div>
+		</div>
+		<div class="row">
+			<div class="box" id="ab"><span class="inside" ></span></div>
+			<div class="box" id="bb"><span class="inside" ></span></div>
+			<div class="box" id="cb"><span class="inside" ></span></div>
+		</div>
+		<div class="row">
+			
+			<div class="box" id="ac"><span class="inside" ></span></div>
+			<div class="box" id="bc"><span class="inside" ></span></div>
+			<div class="box" id="cc"><span class="inside" ></span></div>
+		</div>
+	</div>
+
+</center>
+
+
+
+<div class="container">
+<!--   <h2>And the winner is!!!!</h2> -->
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" id="modal-btn" data-target="#myModal">
+  	
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">The winner is!!!!</h4>
+        </div>
+        <div class="modal-body">
+          <p class="result"></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+</body>
+</html>
