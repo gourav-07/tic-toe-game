@@ -35,6 +35,7 @@ $(document).ready(function() {
 			$('#sym2').on('click',function() {
 				symP=$(this).text();
 				initial();
+				
 			});
 
 			$('.box').on('click',function() {
